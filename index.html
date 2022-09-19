@@ -55,18 +55,18 @@
 
   <!-- jumbo -->
   <section class="jumbotron text-center" id="home">
-    <img src="img/aku.jpg" alt="Irfan Martien" width="200" class="rounded-circle img-thumbnail" />
+    <img src="img/aku.jpg" alt="Irfan Martien" width="200" class="rounded-circle img-thumbnail mb-2" />
     <h1 class="display-4 text-white">Irfan Martien</h1>
     <p class="lead text-white">Mahasiswa Semester 8 | Teknik Informatika</p>
     <p class="lead text-white">Universitas Catur Insan Cendekia Cirebon.</p>
     <p class="lead text-white">Memahami :</p>
-    <img src="img/html.png" width="50" class="rounded img-thumbnail" />
-    <img src="img/css.png" width="50" class="rounded img-thumbnail" />
-    <img src="img/php.png" width="80" class="rounded img-thumbnail" />
-    <img src="img/bootstrap.png" width="50" class="rounded img-thumbnail" />
-    <img src="img/ci.png" width="50" class="rounded img-thumbnail" />
-    <img src="img/laravel.png" width="50" class="rounded img-thumbnail" />
-    <img src="img/spring.png" width="50" class="rounded img-thumbnail" />
+    <img src="img/html.png" width="50" class="rounded img-thumbnail my-2" />
+    <img src="img/css.png" width="50" class="rounded img-thumbnail my-2" />
+    <img src="img/php.png" width="80" class="rounded img-thumbnail my-2" />
+    <img src="img/bootstrap.png" width="50" class="rounded img-thumbnail my-2" />
+    <img src="img/ci.png" width="50" class="rounded img-thumbnail my-2" />
+    <img src="img/laravel.png" width="50" class="rounded img-thumbnail my-2" />
+    <img src="img/spring.png" width="50" class="rounded img-thumbnail my-2" />
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#d50000" fill-opacity="1"
         d="M0,160L288,64L576,128L864,32L1152,224L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path>
@@ -198,20 +198,20 @@
           <form name="my-contact-form">
             <div class="mb-3">
               <label for="name" class="form-label">Nama Lengkap</label>
-              <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" required/>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" />
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required/>
             </div>
             <div class="mb-3">
               <label for="pesan" class="form-label">Pesan</label>
-              <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              <textarea class="form-control" id="pesan" rows="3" name="pesan" required></textarea>
             </div>
             <div>
-              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+              <button type="submit" class="btn btn-outline-danger btn-kirim">Kirim</button>
 
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+              <button class="btn btn-outline-danger btn-loading d-none" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                 Loading...
               </button>
@@ -233,11 +233,11 @@
       Created With <i class="bi bi-heart-fill"></i> By : Irfan Martien
     </p>
     <p><i class="bi bi-instagram"> </i><a href="https://www.instagram.com/irfn_tien/" target="_blank"
-        class="text-white fw-bold"></i>Irfan Martien</a> | <i class="bi bi-facebook"> </i><a href="https://web.facebook.com/irfan.martien/" target="_blank"
+        class="text-white fw-bold"></i>irfn_tien</a> | <i class="bi bi-facebook"> </i><a href="https://web.facebook.com/irfan.martien/" target="_blank"
         class="text-white fw-bold"></i>Irfn Tien</a></p>
     <p><i class="bi bi-whatsapp"> </i><a href="https://wa.me/6283823032071" target="_blank"
-        class="text-white fw-bold"></i>0838-2303-2071</a> | <i class="bi bi-envelope-fill"> </i><a href="mailto:martienirfan@gmail.com" target="_blank"
-        class="text-white fw-bold"></i>martienirfan@gmail.com</a></p>
+        class="text-white fw-bold"></i>0838-2303-2071</a> | <i class="bi bi-envelope-open"> </i><a href="mailto:martienirfan@gmail.com" target="_blank"
+        class="text-white fw-bold"></i>martienirfan</a></p>
     <p><i class="bi bi-file-earmark-person-fill"> </i><a
         href="https://drive.google.com/file/d/175DLv8cflGwSAUL3L4IZw64-aWNaIoaQ/view?usp=sharing" target="_blank"
         class="text-white fw-bold"></i>Curriculum Vitae</a> | <i class="bi bi-github"> </i><a
@@ -253,12 +253,13 @@
     crossorigin="anonymous"></script>
 
   <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxDkzAM5r0Lufk4l8RJDMVfZUzwnsbba2rb8oefuBhuEIp-KuSmsGGgcpXfTEIoG_rtLg/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzvaaeu5aUuonKHUvb6cM2twimhbCfBjBuGakecBI_-AK3HrJZR-Gt4C2iUiSqme99DVA/exec'
     const form = document.forms['my-contact-form'];
     const btnKirim = document.querySelector('.btn-kirim');
     const btnLoading = document.querySelector('.btn-loading');
     const myAlert = document.querySelector('.my-alert');
 
+    https://docs.google.com/spreadsheets/d/1JZqAX8CmyFk4cKF-91JT82nL84K57AUL_onH_UoMuE0/edit?usp=sharing
 
     form.addEventListener('submit', e => {
       e.preventDefault();
