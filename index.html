@@ -1,288 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- logo -->
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
 
-  <!-- logo -->
-  <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <!-- bootsrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
 
-  <!-- bootsrap icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- mycss -->
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- mycss -->
-  <link rel="stylesheet" href="style.css" />
+    <title>Portofolio Irfan Martien</title>
+  </head>
 
-  <title>Portofolio Irfan Martien</title>
-</head>
-
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background: #d50000">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <h3>Irfan Martien</h3>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home"><strong>Beranda</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#about"><strong>Tentang Saya</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#project"><strong>Project Saya</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#contact"><strong>Kontak Saya</strong></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Akhir Navbar -->
-
-  <!-- jumbo -->
-  <section class="jumbotron text-center" id="home">
-    <img src="img/aku.jpg" alt="Irfan Martien" width="200" class="rounded-circle img-thumbnail mb-2" />
-    <h1 class="display-4 text-white">Irfan Martien</h1>
-    <p class="lead text-white">Mahasiswa Semester 8 | Teknik Informatika</p>
-    <p class="lead text-white">Universitas Catur Insan Cendekia Cirebon.</p>
-    <p class="lead text-white">Memahami :</p>
-    <img src="img/html.png" width="50" class="rounded img-thumbnail my-2" />
-    <img src="img/css.png" width="50" class="rounded img-thumbnail my-2" />
-    <img src="img/php.png" width="80" class="rounded img-thumbnail my-2" />
-    <img src="img/bootstrap.png" width="50" class="rounded img-thumbnail my-2" />
-    <img src="img/ci.png" width="50" class="rounded img-thumbnail my-2" />
-    <img src="img/laravel.png" width="50" class="rounded img-thumbnail my-2" />
-    <img src="img/spring.png" width="50" class="rounded img-thumbnail my-2" />
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#d50000" fill-opacity="1"
-        d="M0,160L288,64L576,128L864,32L1152,224L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path>
-    </svg>
-  </section>
-  <!-- Akhir jumbotron -->
-
-  <!-- About -->
-  <section id="about">
-    <div class="container">
-      <div class="row text-center mb-3 text-white">
-        <div class="col">
-          <h2>Tentang Saya</h2>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow fixed-top"
+      style="background: #d50000"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h3>Irfan Martien</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                ><strong>Beranda</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about"
+                ><strong>Tentang Saya</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#project"
+                ><strong>Project Saya</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact"
+                ><strong>Kontak Saya</strong></a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="row justify-content-center text-center fs-5 text-white">
-        <div class="col-md-4 mb-3">
-          Saya Irfan Martien, berasal dari Kota Kuningan Jawa Barat yang mempunyai minat di IT dan  Sekarang sedang melanjutkan
-          pendidikan S1 di UNIVERSITAS CIC Cirebon jurusan TI (Teknik Informatika) semester 8 dan telah menyelesaikan sidang skripsi dengan judul Sistem Informasi Kepuasan Mahasiswa Dalam Melaksanakan Magang Dengan Menggunakan Metode Fuzzy Service Qualiy.
-        </div>
-        <div class="col-md-4">
-          Saya telah mempelajari dan memahami ilmu dasar dalam pembuatan aplikasi seperti mempelajari bahasa HTML, CSS,
-          PHP, JavaScript dan beberapa bahasa lainnya dan sudah membuat beberapa aplikasi sederhana. Dengan memahami dalam
-          pembuatan aplikasi saya berminat berkarir di bidang IT yang handal dan sekarang sudah mahir menggunakan Framework
-          Codeigniter, Laravel dan Java SpringBoot.
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#07127f" fill-opacity="1"
-        d="M0,160L288,64L576,128L864,32L1152,224L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path>
-    </svg>
-  </section>
-  <!-- Akhir About -->
+    </nav>
+    <!-- Akhir Navbar -->
 
-  <!-- Project -->
-  <section id="project">
-    <div class="container">
-      <div class="row text-center mb-3 text-white">
-        <div class="col">
-          <h2>Project Saya</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/apk2.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text"><b>Aplikasi Pendataan Siswa PHP Dasar Native Berbasis Web.</b></p>
-              <p class="card-text">Project ini dibuat untuk pembelajaran memahami php dasar / php native dalam proses
-                sistem CRUD,
-                dengan mengikuti list video tutorial dari Youtube Web Programming UNPAS selama kurang lebih 1 bulan.</p>
-            </div>
+    <!-- jumbo -->
+    <section class="jumbotron text-center" id="home">
+      <img
+        src="img/baru1.png"
+        alt="Irfan Martien"
+        width="250"
+        class="rounded-circle img-thumbnail mb-2"
+      />
+      <h1 class="display-4 text-white">Irfan Martien</h1>
+      <p class="lead text-white">Fresh Graduate | Teknik Informatika</p>
+      <p class="lead text-white">Universitas Catur Insan Cendekia Cirebon.</p>
+      <p class="lead text-white">Memahami :</p>
+      <img src="img/html.png" width="50" class="rounded img-thumbnail my-2" />
+      <img src="img/css.png" width="50" class="rounded img-thumbnail my-2" />
+      <img src="img/php.png" width="80" class="rounded img-thumbnail my-2" />
+      <img
+        src="img/bootstrap.png"
+        width="50"
+        class="rounded img-thumbnail my-2"
+      />
+      <img src="img/ci.png" width="50" class="rounded img-thumbnail my-2" />
+      <img
+        src="img/laravel.png"
+        width="50"
+        class="rounded img-thumbnail my-2"
+      />
+      <img src="img/spring.png" width="50" class="rounded img-thumbnail my-2" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#d50000"
+          fill-opacity="1"
+          d="M0,160L288,64L576,128L864,32L1152,224L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3 text-white">
+          <div class="col">
+            <h2>Tentang Saya</h2>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/apk.png" class="card-img-top" alt="Project Kesatu" />
-            <div class="card-body">
-              <p class="card-text"><b>Aplikasi Sistem Informasi Pendaftaran Organisasi Berbasis Web.</b></p>
-              <p class="card-text">Project ini dibuat untuk memenuhi tugas akhir pada semester 6 dengan menggunakan
-                aplikasi editor Sublime Text, Framework Codeigniter 3 dan Template CSS Boostrap 4 dengan waktu kurang
-                lebih 5 bulan.</p>
-            </div>
+        <div class="row justify-content-center text-center fs-5 text-white">
+          <div class="col-md-4 mb-3">
+            Saya Irfan Martien, berasal dari Kota Kuningan Jawa Barat yang
+            mempunyai minat di bidang IT dan Sekarang sudah menyelesaikan
+            pendidikan S1 di UNIVERSITAS Catur Insan Cendekia Cirebon jurusan TI
+            (Teknik Informatika) dan menyelesaikan sidang skripsi dengan judul
+            Sistem Informasi Kepuasan Mahasiswa Dalam Melaksanakan Magang
+            Menggunakan Metode Fuzzy Service Qualiy.
           </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/apk3.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text"><b>Rest API LMS Vocasia Menggunakan Codeigniter 4.</b></p>
-              <p class="card-text">Pelaksanaan Project MBKM (Magang Bersertifikat Kampus Merdeka) divisi backend programming dalam mengembangkan website Vocasia dan aplikasi menggunakan API (Application Programming Interface) sebagai perangkat lunak yang berfungsi menghubungkan suatu aplikasi dengan aplikasi lainnya, dan dalam pembuatan API menggunakan bahasa pemrograman php dengan framework Codeigniter 4.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/apk4.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text"><b>Rest API Hospital Management Menggunakan SpringBoot.</b></p>
-              <p class="card-text">Pada Project Akhir SI di Alterra Academy (Studi Independen) Tema yang diberikan dalam project ini adalah hospital management system. Kemudian dibuat rest api untuk bisa diimplementasikan oleh divisi frontend untuk merancang aplikasi hospital management. Hasil dari project ini dipresentasikan sebagai tugas akhir dari program studi independen (SIB).</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/apk5.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text"><b>Aplikasi Kepuasan Mahasiswa Dalam Melaksanakan Magang Berbasis Web.</b></p>
-              <p class="card-text">Project ini dibuat untuk memenuhi tugas SKRIPSI pada semester 8 dengan menggunakan aplikasi Visual Studi Code, Framework Codeigniter 4 dan Template CSS Boostrap 5 dengan waktu kurang lebih 4 bulan.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/apk1.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text"><b>Aplikasi Pendataan Siswa Sederhana Menggunakan Laravel Berbasis Web.</b></p>
-              <p class="card-text">Project ini dibuat untuk pembelajaran memahami Framework Laravel 9 dalam proses sistem CRUD, dengan mengikuti list video tutorial dari Youtube Cara Fajar selama kurang lebih 2 minggu.
-              </p>
-            </div>
+          <div class="col-md-4">
+            Saya telah mempelajari dan memahami ilmu dasar dalam pembuatan
+            aplikasi seperti mempelajari bahasa HTML, CSS, PHP, JavaScript dan
+            beberapa bahasa lainnya dan sudah membuat beberapa aplikasi
+            sederhana. Dengan memahami dalam pembuatan aplikasi saya berminat
+            berkarir di bidang IT yang handal dan sekarang sudah mahir
+            menggunakan Framework Codeigniter, Laravel dan Java SpringBoot.
           </div>
         </div>
       </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#f3f4f5" fill-opacity="1"
-        d="M0,160L288,64L576,128L864,32L1152,224L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path>
-    </svg>
-  </section>
-  <!-- Akhir Project -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#07127f"
+          fill-opacity="1"
+          d="M0,160L288,64L576,128L864,32L1152,224L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About -->
 
-  <!-- Contact -->
-  <section id="contact">
-    <div class="container">
-      <div class="row text-center mb-3">
-        <div class="col">
-          <h2>Kontak Saya</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-
-          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-            <strong>Terimakasih!</strong> Pesan Anda Telah Saya Diterima.
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <!-- Project -->
+    <section id="project">
+      <div class="container">
+        <div class="row text-center mb-3 text-white">
+          <div class="col">
+            <h2>Project Saya</h2>
           </div>
-
-          <form name="my-contact-form">
-            <div class="mb-3">
-              <label for="name" class="form-label">Nama Lengkap</label>
-              <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" required/>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/apk2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  <b>Aplikasi Pendataan Siswa PHP Dasar Native Berbasis Web.</b>
+                </p>
+                <p class="card-text">
+                  Project ini dibuat untuk pembelajaran memahami php dasar / php
+                  native dalam proses sistem CRUD, dengan mengikuti list video
+                  tutorial dari Youtube Web Programming UNPAS selama kurang
+                  lebih 1 bulan.
+                </p>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required/>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="img/apk.png"
+                class="card-img-top"
+                alt="Project Kesatu"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  <b
+                    >Aplikasi Sistem Informasi Pendaftaran Organisasi Berbasis
+                    Web.</b
+                  >
+                </p>
+                <p class="card-text">
+                  Project ini dibuat untuk memenuhi tugas akhir pada semester 6
+                  dengan menggunakan aplikasi editor Sublime Text, Framework
+                  Codeigniter 3 dan Template CSS Boostrap 4 dengan waktu kurang
+                  lebih 5 bulan.
+                </p>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="pesan" class="form-label">Pesan</label>
-              <textarea class="form-control" id="pesan" rows="3" name="pesan" required></textarea>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/apk3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  <b>Rest API LMS Vocasia Menggunakan Codeigniter 4.</b>
+                </p>
+                <p class="card-text">
+                  Pelaksanaan Project MBKM (Magang Bersertifikat Kampus Merdeka)
+                  divisi backend programming dalam mengembangkan website Vocasia
+                  dan aplikasi menggunakan API (Application Programming
+                  Interface) sebagai perangkat lunak yang berfungsi
+                  menghubungkan suatu aplikasi dengan aplikasi lainnya, dan
+                  dalam pembuatan API menggunakan bahasa pemrograman php dengan
+                  framework Codeigniter 4.
+                </p>
+              </div>
             </div>
-            <div>
-              <button type="submit" class="btn btn-outline-danger btn-kirim">Kirim</button>
-
-              <button class="btn btn-outline-danger btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/apk4.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  <b>Rest API Hospital Management Menggunakan SpringBoot.</b>
+                </p>
+                <p class="card-text">
+                  Pada Project Akhir SI di Alterra Academy (Studi Independen)
+                  Tema yang diberikan dalam project ini adalah hospital
+                  management system. Kemudian dibuat rest api untuk bisa
+                  diimplementasikan oleh divisi frontend untuk merancang
+                  aplikasi hospital management. Hasil dari project ini
+                  dipresentasikan sebagai tugas akhir dari program studi
+                  independen (SIB).
+                </p>
+              </div>
             </div>
-          </form>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/apk5.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  <b
+                    >Aplikasi Kepuasan Mahasiswa Dalam Melaksanakan Magang
+                    Berbasis Web.</b
+                  >
+                </p>
+                <p class="card-text">
+                  Project ini dibuat untuk memenuhi tugas SKRIPSI pada semester
+                  8 dengan menggunakan aplikasi Visual Studi Code, Framework
+                  Codeigniter 4 dan Template CSS Boostrap 5 dengan waktu kurang
+                  lebih 4 bulan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/apk6.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  <b
+                    >Aplikasi My-blog sederhana Menggunakan Laravel Berbasis
+                    Web.</b
+                  >
+                </p>
+                <p class="card-text">
+                  Project ini dibuat untuk pembelajaran memahami Framework
+                  Laravel dalam proses sistem CRUD, dengan mengikuti list video
+                  tutorial dari Youtube Web Programming UNPAS selama kurang
+                  lebih 2 minggu.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/apk1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  <b
+                    >Aplikasi Pendataan Siswa Sederhana Menggunakan Laravel
+                    Berbasis Web.</b
+                  >
+                </p>
+                <p class="card-text">
+                  Project ini dibuat untuk pembelajaran memahami Framework
+                  Laravel 9 dalam proses sistem CRUD, dengan mengikuti list
+                  video tutorial dari Youtube Cara Fajar selama kurang lebih 2
+                  minggu.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#d50000" fill-opacity="1"
-        d="M0,192L288,256L576,160L864,96L1152,192L1440,256L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path>
-    </svg>
-  </section>
-  <!-- Akhir Contact -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,160L288,64L576,128L864,32L1152,224L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Project -->
 
-  <!-- Footer -->
-  <footer class="text-white pb-3 text-center" style="background: #d50000;">
-    <p>
-      Created With <i class="bi bi-heart-fill"></i> By : Irfan Martien
-    </p>
-    <p><i class="bi bi-instagram"> </i><a href="https://www.instagram.com/irfn_tien/" target="_blank"
-        class="text-white fw-bold"></i>irfn_tien</a> | <i class="bi bi-facebook"> </i><a href="https://web.facebook.com/irfan.martien/" target="_blank"
-        class="text-white fw-bold"></i>Irfn Tien</a></p>
-    <p><i class="bi bi-whatsapp"> </i><a href="https://wa.me/6283823032071" target="_blank"
-        class="text-white fw-bold"></i>0838-2303-2071</a> | <i class="bi bi-envelope-open"> </i><a href="mailto:martienirfan@gmail.com" target="_blank"
-        class="text-white fw-bold"></i>martienirfan</a></p>
-    <p><i class="bi bi-file-earmark-person-fill"> </i><a
-        href="https://drive.google.com/file/d/175DLv8cflGwSAUL3L4IZw64-aWNaIoaQ/view?usp=sharing" target="_blank"
-        class="text-white fw-bold"></i>Curriculum Vitae</a> | <i class="bi bi-github"> </i><a
-        href="https://github.com/tien26" target="_blank"
-        class="text-white fw-bold"></i>tien26</a></p>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Kontak Saya</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div
+              class="alert alert-success alert-dismissible fade show d-none my-alert"
+              role="alert"
+            >
+              <strong>Terimakasih!</strong> Pesan Anda Telah Saya Diterima.
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
 
-  </footer>
+            <form name="my-contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                  name="nama"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  rows="3"
+                  name="pesan"
+                  required
+                ></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-outline-danger btn-kirim">
+                  Kirim
+                </button>
 
-  <!-- Akhir Footer -->
+                <button
+                  class="btn btn-outline-danger btn-loading d-none"
+                  type="button"
+                  disabled
+                >
+                  <span
+                    class="spinner-border spinner-border-sm"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                  Loading...
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#d50000"
+          fill-opacity="1"
+          d="M0,192L288,256L576,160L864,96L1152,192L1440,256L1440,320L1152,320L864,320L576,320L288,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Contact -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <footer class="text-white pb-3 text-center" style="background: #d50000">
+      <p>Created With <i class="bi bi-heart-fill"></i> By : Irfan Martien</p>
+      <p>
+        <i class="bi bi-instagram"> </i
+        ><a
+          href="https://www.instagram.com/irfn_tien/"
+          target="_blank"
+          class="text-white fw-bold"
+        >
+          irfn_tien</a
+        >
+        | <i class="bi bi-facebook"> </i
+        ><a
+          href="https://web.facebook.com/irfan.martien/"
+          target="_blank"
+          class="text-white fw-bold"
+        >
+          Irfn Tien</a
+        >
+      </p>
+      <p>
+        <i class="bi bi-whatsapp"> </i
+        ><a
+          href="https://wa.me/6283823032071"
+          target="_blank"
+          class="text-white fw-bold"
+        >
+          0838-2303-2071</a
+        >
+        | <i class="bi bi-linkedin"></i>
+        <a
+          href="https://www.linkedin.com/in/irfan-martien-6235b6245/"
+          target="_blank"
+          class="text-white fw-bold"
+        >
+          Irfan Martien</a
+        >
+      </p>
+      <p>
+        <i class="bi bi-file-earmark-person-fill"> </i
+        ><a
+          href="https://drive.google.com/file/d/19KUNHMoArzLIsajuXAhzuhzED-0gslEC/view?usp=sharing"
+          target="_blank"
+          class="text-white fw-bold"
+        >
+          Curriculum Vitae</a
+        >
+        | <i class="bi bi-github"> </i
+        ><a
+          href="https://github.com/tien26"
+          target="_blank"
+          class="text-white fw-bold"
+        >
+          tien26</a
+        >
+      </p>
+      <p>
+        <i class="bi bi-envelope-open"> </i
+        ><a
+          href="mailto:martienirfan@gmail.com"
+          target="_blank"
+          class="text-white fw-bold"
+        >
+          martienirfan@gmail.com</a
+        >
+      </p>
+    </footer>
 
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzvaaeu5aUuonKHUvb6cM2twimhbCfBjBuGakecBI_-AK3HrJZR-Gt4C2iUiSqme99DVA/exec'
-    const form = document.forms['my-contact-form'];
-    const btnKirim = document.querySelector('.btn-kirim');
-    const btnLoading = document.querySelector('.btn-loading');
-    const myAlert = document.querySelector('.my-alert');
+    <!-- Akhir Footer -->
 
-    https://docs.google.com/spreadsheets/d/1JZqAX8CmyFk4cKF-91JT82nL84K57AUL_onH_UoMuE0/edit?usp=sharing
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      //ketika tombol submit diklik
-      //tampilkan tombol loading, hilangkan tombol kirim
-      btnLoading.classList.toggle('d-none');
-      btnKirim.classList.toggle('d-none');
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzvaaeu5aUuonKHUvb6cM2twimhbCfBjBuGakecBI_-AK3HrJZR-Gt4C2iUiSqme99DVA/exec";
+      const form = document.forms["my-contact-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
 
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
+      // https://docs.google.com/spreadsheets/d/1JZqAX8CmyFk4cKF-91JT82nL84K57AUL_onH_UoMuE0/edit?usp=sharing
 
-          //tampilkan tombol kirim, hilangkan tombol loading
-          btnLoading.classList.toggle('d-none');
-          btnKirim.classList.toggle('d-none');
-          //tampilkan alert
-          myAlert.classList.toggle('d-none');
-          //reset form
-          form.reset();
-          console.log('Success!', response);
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-</body>
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        //ketika tombol submit diklik
+        //tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
 
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            //tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            //tampilkan alert
+            myAlert.classList.toggle("d-none");
+            //reset form
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
 </html>
