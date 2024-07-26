@@ -18,3 +18,10 @@ section {
 .margin-svg {
   margin-bottom: -2px;
 }
+
+.skill {
+  transition: transform 0.7s ease-in-out;
+}
+.skill:hover {
+  transform: scale(1.5);
+}
